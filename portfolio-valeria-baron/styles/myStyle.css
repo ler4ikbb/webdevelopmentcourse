@@ -1,0 +1,264 @@
+﻿
+
+
+body {
+    direction: rtl;
+    font-family:arial, helvetica, sans-serif;
+    background-color: black;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url('../images/droppedImage.png');
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 960px;
+    background-size: 457px;
+    background-repeat: no-repeat;
+}
+header{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1{
+  color: #FFD700;
+      padding-top:40px;
+   padding-bottom:1px;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   font-size:50px;
+   letter-spacing:1.9px;
+  
+}
+
+h2{
+    color:white;
+        padding-top:17px;
+   padding-bottom:4px;
+      font-size:32.8px;
+      text-align:center;
+      letter-spacing:2.5px;
+
+}
+h3{
+    color:#ADEAEA;
+        padding-top:20px;
+margin-bottom:30px;
+      font-size:30px;
+      text-align:center;
+      letter-spacing:2.5px;
+
+}
+
+p{
+      color:#ADEAEA ;
+      font-size:19px;
+      padding-top:16px;
+      text-align:center;
+      letter-spacing:1px;
+      width:370px;
+      height:30px;
+      padding-right:298px;
+      padding-bottom:5PX;
+}
+
+
+
+nav{
+    width:360px;
+    height:100px;
+    margin-top:29px;
+      font-size:18px;
+      color:#E6E8FA;
+      text-align:center;
+       padding-left: 0px;
+     padding-right:246px;
+     padding-bottom:39px;
+     padding-top:11px;
+}
+nav ul {
+          display:inline-block;
+      float:right;
+         list-style:none;
+           width: 660px; 
+}
+
+nav ul li{
+  
+       display: inline-block;
+        float: right;
+        letter-spacing:1px;
+        padding-left:10px;
+         padding-right:10px;
+         height:100px;
+         width:100px;
+         text-align:top;
+         font-size:22px;
+           -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 29, 1);
+box-shadow: 0px 0px 15px 15px rgba(1, 13, 0, 1);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
+}
+
+nav ul li a {
+    text-decoration:none;
+    color:#E6E8FA;
+    display:block;
+    background-size:130px;
+    height:100px;
+    width:100px;
+}
+
+nav ul li:hover {
+-webkit-box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+
+}
+
+/*profile PIC*/
+.pic {
+    background-image: url('../images/9.png');
+    background-repeat: no-repeat;
+    height: 490px;
+    width: 490px;
+    background-size:490px;
+    background-position-x: center;
+    background-position-y: center;
+    padding-right:490px;
+}
+
+/*תרפיט ניווט*/
+.kurs  {
+    background-color:#008B8B;
+    border-radius:50%;
+    background-position-y:bottom;
+    background-position-x:center;
+    padding-top:40px;
+    padding-left:25px;
+    padding-right:25px;
+     margin-left:3px;
+     margin-bottom:3px;
+           margin-bottom:auto; 
+}
+/*צללית-לעמוד-בו-המשתמש-נמצא-בתפריט-ניווט*/
+.blue  {
+ background-color:rgba(0, 0, 29, 1);
+    border-radius:50%;
+    background-position-y:bottom;
+    background-position-x:center;
+    padding-top:40px;
+    padding-left:25px;
+    padding-right:25px;
+     margin-left:3px;
+     margin-bottom:3px;
+           margin-bottom:auto;
+           background-size:150%;
+-webkit-box-shadow: 0px 0px  1.5px  1.5px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 1.5px  1.5px rgba(255, 255, 255, .75);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+ 
+}
+
+/*כפתור פייסבוק*/
+.facebook {
+    background-color:#008B8B;
+    border-radius: 50%;
+    background-position-x: center;
+    background-position-y:top;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 95px;
+    height: 97px;
+-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 29, 1);
+box-shadow: 0px 0px 15px 05px rgba(1, 13, 0, 1);
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.facebook:hover {
+-webkit-box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, .75);
+box-shadow: 0px 0px 15px 10px rgba(255, 255, 255, .75);
+
+}
+
+
+/*תמונת אווירה בתחתית העמוד הראשי */
+.bottom {
+ 
+    width: 960px;
+    background-image: url('../images/palm small.png');
+    background-size: 387px;
+    background-repeat: no-repeat;
+    background-position-y:bottom;
+    background-position-x: right;
+   
+}
+/*הגדרות לטקסט בעמודים הפנימיים*/
+.JUSTIFY{
+      color:#ADEAEA ;
+      font-size:19px;
+      padding-top:16px;
+      text-align:justify;
+      letter-spacing:1px;
+      width:370px;
+      height:30px;
+      padding-right:298px;
+      padding-bottom:220PX;
+
+}
+/*הגדרה לטקסט בעמוד פנימי ששונה מיתר ההגדרות בגלל האלמנטים שבעמוד*/
+.JUSTIFY1{
+      color:#ADEAEA ;
+      font-size:19px;
+      padding-top:16px;
+      text-align:justify;
+      letter-spacing:1px;
+      width:370px;
+      height:30px;
+      padding-right:298px;
+      padding-bottom:35PX;
+
+}
+/*ייצוג של העבודה בתור תמונה בקורס תקשורת חזותית*/
+#yitsug a{
+      color:#ADEAEA ;
+      font-size:19px;
+      padding-top:16px;
+      text-align:justify;
+      letter-spacing:1px;
+      width:370px;
+      height:30px;
+      padding-bottom:250PX;
+
+}
+/*כפתור חזור לעמוד הבית*/
+#bait a {
+
+     letter-spacing:1px;
+     text-decoration:none;
+     font-size:20px;
+    border-radius:20%;
+    background-position-y:top;
+    background-position-x:right;
+    padding-left:25px;
+    padding-right:18px;
+     margin-left:3px;
+     margin-bottom:auto;
+     margin-bottom:auto;
+height:30px; width:960px;
+      color:#E6E8FA;
+  
+}
+
+ #video{
+    padding-top:50px;
+}
